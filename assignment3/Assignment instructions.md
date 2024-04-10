@@ -51,13 +51,14 @@ Verify that all pods are running:
 
  <img width="677" alt="Screenshot 2024-04-09 at 10 06 30 PM" src="https://github.com/thisdontw0rk/pop/assets/144601350/f1852e04-121e-48ab-8ca2-96dbae28e64e">
 
- Make requests to the NGINX service using curl.
+ Make requests to the service using curl.
 
 ```bash
 curl http://$(minikube ip)/
 ```
 
-<img width="783" alt="Screenshot 2024-04-09 at 10 48 32 PM" src="https://github.com/thisdontw0rk/ensf400-lab8-kubernetes-2/assets/144601350/aac57563-828c-49d9-a24d-5014d7aaed55">
+<img width="1106" alt="Screenshot 2024-04-09 at 10 53 08 PM" src="https://github.com/thisdontw0rk/ensf400-lab8-kubernetes-2/assets/144601350/15752023-3d38-4693-a9a1-9ccf1becfbf2">
+
 
 
 If you are done with the program enter the following command to delete the cluster:
